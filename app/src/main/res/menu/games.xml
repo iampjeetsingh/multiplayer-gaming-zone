@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/chess"
+        android:title="Chess"/>
+    <item
+        android:id="@+id/chainreaction"
+        android:title="Chain Reaction"/>
+    <item
+        android:id="@+id/tictactoe"
+        android:title="Tic Tac Toe"/>
+    <item
+        android:id="@+id/teenpatti"
+        android:title="Teen Patti"/>
+</menu>

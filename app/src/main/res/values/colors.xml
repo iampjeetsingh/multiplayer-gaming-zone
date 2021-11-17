@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="blue">#3498db</color>
+    <color name="darkBlue">#2980b9</color>
+    <color name="green">#2ecc71</color>
+    <color name="darkGreen">#27ae60</color>
+    <color name="red">#e74c3c</color>
+    <color name="darkRed">#c0392b</color>
+    <color name="orange">#e67e22</color>
+    <color name="darkOrange">#d35400</color>
+    <color name="yellow">#f1c40f</color>
+    <color name="darkYellow">#f39c12</color>
+    <color name="purple">#9b59b6</color>
+    <color name="darkPurple">#8e44ad</color>
+    <color name="grey">#95a5a6</color>
+    <color name="darkGrey">#7f8c8d</color>
+
+    <color name="online">#2ecc71</color>
+    <color name="playing">#f1c40f</color>
+
+    <color name="chess_black_box">#bdc3c7</color>
+    <color name="chess_white_box">#dadfe1</color>
+    <color name="chess_blue_box">#3498db</color>
+    <color name="chess_green_box">#23cba7</color>
+    <color name="chess_darkGreen_box">#2abb9b</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

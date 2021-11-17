@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mpgames.zone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Gamer Zone"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".AddFriendActivity"></activity>
+        <activity android:name=".teenpatti.TeenPatti" />
+        <activity
+            android:name=".StartScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Gamer Zone">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".chess.ChessActivity" />
+        <activity android:name=".chainreaction.ChainReaction" />
+        <activity android:name=".tictactoe.TicTacToe" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".userlist.UsersActivity" />
+        <activity android:name=".room.RoomActivity" />
+        <activity android:name=".PermissionsActivity" />
+    </application>
+
+</manifest>
